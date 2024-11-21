@@ -1,0 +1,70 @@
+.order-list-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .orders-section, .delivered-orders-section {
+    margin-top: 2rem;
+  }
+  
+  .order-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delivered {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+  }
+  
+  .order-number h3 {
+    font-weight: bold;
+  }
+  
+  .customer-details, .order-items {
+    margin: 0.5rem 0;
+  }
+  
+  .items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+  }
+  
+  .items-table th, .items-table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+  }
+  
+  .mark-delivered-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mark-delivered-btn.disabled {
+    background-color: #888;
+    cursor: not-allowed;
+  }
+  
+  .mark-delivered-btn:hover:not(.disabled) {
+    background-color: #45a049;
+  }
+  
